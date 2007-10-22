@@ -1,0 +1,6 @@
+#summary Getting started with Kiss Asp Framework
+#labels framework,asp
+
+= Details =
+
+Any software application requires some effect to learn. We’ve done my best to minimize the learning curve while making the process as enjoyable as possible. The first step is to install KAF. Next, read each of the General Topics in order. Each topic includes code examples that you are encouraged to try. Finally, feel free to take advantage of our group if you have questionss or problems. Our Group: http://groups.google.com/group/KissAspFramework
