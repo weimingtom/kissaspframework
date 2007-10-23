@@ -2,11 +2,11 @@
 #labels framework,asp
 
 KAF is intalled in five steps:
-* paragraphs 1.	Download the KAF package from http://code.google.com/p/kissaspframework/</p>
-2.	Unzip the package
-3.	Open the entrance file such as index.asp with a text editor and include the Kiss/Config.asp file to your entrance file.
-4.	Set your application constants.
-5.	Set your database settings.
+* Download the KAF package from http://code.google.com/p/kissaspframework/</p>
+* Unzip the package
+* Open the entrance file such as index.asp with a text editor and include the Kiss/Config.asp file to your entrance file.
+* Set your application constants.
+* Set your database settings.
 
 In your application folder must include three folders, Controller, Model and View.
 
