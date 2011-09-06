@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>{{title}}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+</head>
+
+<body bgcolor="#333333" text="#FF6633" link="#FF3333" vlink="#660000" alink="#FF0000">
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tr> 
+    <td colspan="2">
+      <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><b><font size="4">{{title}}</font></b></font></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="22%">{{menu}} </td>
+    <td width="78%"><font face="Verdana, Arial, Helvetica, sans-serif" size="2">You 
+      should see some content down here :)<br>
+      {{content}} </font></td>
+  </tr>
+</table>
+<ul>
+<!--BEGIN news-->
+<li>{{news}}</li>
+<!--END news-->
+</ul>
+<!--BEGIN a_block-->
+<table width="100%" border="0" cellspacing="2" cellpadding="2" bgcolor="#003333">
+  <tr> 
+    <td>
+      <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><b><font size="4">{{outer}}</font></b></font>
+      <!-- BEGIN b_block -->
+        <table width="90%" border="0" cellspacing="2" cellpadding="2" bgcolor="{{inner}}">
+          <tr> 
+            <td bgcolor="#003366" align="center"> 
+              {{into_b}} 
+              <!-- BEGIN c_block -->
+              <table width="90%" border="0" cellspacing="2" cellpadding="2" bgcolor="{{inner}}">
+				  <tr> 
+					<td bgcolor="#003366"> 
+					  <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><b><font size="4">{{whatever}}</font></b></font> 
+					  </div>
+				  </td>
+				</tr>
+			  </table>
+              <!-- END c_block -->
+            </td>
+			</tr>
+		  </table>
+      <!-- END b_block -->
+      </div>
+    </td>
+  </tr>
+</table>
+<!-- END a_block -->
+</body>
+</html>
